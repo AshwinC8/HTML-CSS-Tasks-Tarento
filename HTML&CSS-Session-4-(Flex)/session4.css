@@ -1,0 +1,27 @@
+.border {
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+    height: 300px;
+
+    border-style: dotted;
+    border-width: thick;
+    border-radius: 50px;
+    border-color: blueviolet red blue green;
+    /* border: ; */
+}
+
+.border p {
+    text-align: center;
+    padding-top: 50px;
+    font-size: xx-large;
+}
+
+.navbar {
+    position: fixed;
+    height: 200px;
+    background-color: grey;
+    bottom: 0;
+    top: 0;
+    
+}

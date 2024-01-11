@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Reviews Judger</title>
+    <style>
+        img {
+            width: 200px;
+            height: 200px;
+        }        
+
+        .my_opinion {
+            width: 100px;
+            height: 100px;
+        }
+
+        .their_opinion {
+            width: 80px;
+            height: 80px;
+        }
+
+        .main_table {
+            border: 5px outset black;
+            width: 100%;
+            padding: 10px
+        }
+
+        td, th{
+            padding: 10px;
+        }
+
+        td {
+            border: 2px dotted black;
+        }
+
+        .their_input {
+            height: 200px;
+        }
+
+        div {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            
+        }
+
+        h2 {
+            margin-top: 80px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Food Reviews Judger</h1>
+    <form>
+        <table class="main_table">
+            <tr>
+                <th>Food</th>
+                <th>Rating</th>
+                <th>Your opinion</th>
+                <th>My Rating</th>
+            </tr>
+            <tr>
+                <td><img src="./assets/Chicken-Shawarma.webp" title="shawarma" alt="shawarma"></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/good.svg" title="good" alt="good"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/neutral.svg" title="nuetral" alt="nuetral"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/bad.svg" title="bad" alt="bad"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <input class="their_input" type="text" name="Your Opinion" placeholder="Enter your opinion">
+                </td>
+                <td>
+                    <img class="my_opinion" src="./assets/icons/good.svg" title="my opinion" alt="my opinion">
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./assets/biriyani.jpeg" title="biriyani" alt="biriyani"></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/good.svg" title="good" alt="good"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/neutral.svg" title="nuetral" alt="nuetral"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/bad.svg" title="bad" alt="bad"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <input class="their_input" type="text" name="Your Opinion" placeholder="Enter your opinion">
+                </td>
+                <td>
+                    <img class="my_opinion" src="./assets/icons/good.svg" title="my opinion" alt="my opinion">
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./assets/mandi.jpg" title="mandi" alt="mandi"></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/good.svg" title="good" alt="good"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/neutral.svg" title="nuetral" alt="nuetral"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/bad.svg" title="bad" alt="bad"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <input class="their_input" type="text" name="Your Opinion" placeholder="Enter your opinion">
+                </td>
+                <td>
+                    <img class="my_opinion" src="./assets/icons/neutral.svg" title="my opinion" alt="my opinion">
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./assets/bullseye.jpg" title="bullseye" alt="bullseye"></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/good.svg" title="good" alt="good"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/neutral.svg" title="nuetral" alt="nuetral"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/bad.svg" title="bad" alt="bad"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <input class="their_input" type="text" name="Your Opinion" placeholder="Enter your opinion">
+                </td>
+                <td>
+                    <img class="my_opinion" src="./assets/icons/good.svg" title="my opinion" alt="my opinion">
+                </td>
+            </tr>
+            <tr>
+                <td><img src="./assets/Ice-Cream.jpg" title="ice Cream" alt="ice Cream"></td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/good.svg" title="good" alt="good"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/neutral.svg" title="nuetral" alt="nuetral"></input>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="checkbox"><img class="their_opinion" src="assets/icons/bad.svg" title="bad" alt="bad"></input>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <input class="their_input" type="text" name="Your Opinion" placeholder="Enter your opinion">
+                </td>
+                <td>
+                    <img class="my_opinion" src="./assets/icons/good.svg" title="my opinion" alt="my opinion">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <h2>Get In Touch </h2>
+        <div>
+            <img src="./assets/icons/goku_meme.jpg" title="fight me" alt="goku"><br>
+            <a href="mailto:ashwinsamgeorge@gmail.com">ashwinsamgeorge@gmail.com</a>
+        </div>
+</body>
+</html>

@@ -1,0 +1,30 @@
+:root {
+    height: 100%;
+}
+
+body {
+    background: url("./vivid-blurred-colorful-background_58702-2655.avif") no-repeat;
+    /* background-image: url("./vivid-blurred-colorful-background_58702-2655.avif");
+    background-repeat: no-repeat; */
+    background-size: 100% 100%;
+}
+
+h1 {
+    color: blue;
+}
+
+ul {
+    color: darkslategray;
+}
+
+p {
+    color: darkblue;
+    font-family: 'Times New Roman';
+    font-size: large;
+    font-style: oblique;
+    font-weight: 600;
+}
+
+.second {
+    color: darkblue;
+}
